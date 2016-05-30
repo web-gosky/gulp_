@@ -1,0 +1,71 @@
+.wrap {
+	width: 1190px;
+	margin: 0 auto
+}
+
+.sub-block {
+	width: 273px;
+	margin-right: 20px;
+	border: 1px solid #ccc;
+	height: 200px;
+	float: left
+}
+
+.no-margin {
+	margin-right: 0
+}
+
+.block-slides-wrap {
+	position: relative;
+	width: 100%;
+	height: 202px;
+	overflow: hidden
+}
+
+.block-slides-wrap ul.slides-content {
+	position: absolute;
+	left: 0;
+	width: 5000px;
+	margin: 0;
+	padding: 0
+}
+
+.block-slides-wrap ul.slides-content li {
+	float: left;
+	list-style: none;
+	width: 1180px;
+	overflow: hidden
+}
+
+.block-slides-wrap .next-btn,
+.block-slides-wrap .prev-btn {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 75px;
+	margin-top: -37px;
+	top: 50%;
+	background-image: url(../img/jt.png);
+	background-position: 10px 25px;
+	background-repeat: no-repeat;
+	background-color: #333;
+	z-index: 2;
+	cursor: pointer;
+	opacity: .1;
+	filter: alpha(opacity=10)
+}
+
+.block-slides-wrap .next-btn:hover,
+.block-slides-wrap .prev-btn:hover {
+	opacity: .3;
+	filter: alpha(opacity=30)
+}
+
+.block-slides-wrap .block-slides-wrap .prev-btn {
+	left: 0
+}
+
+.block-slides-wrap .next-btn {
+	right: 0;
+	background-position: -20px 25px
+}
